@@ -7,3 +7,4 @@ The Advent of Code is like an advent calendar for programming problems (found [h
 See notes for Each Day below
 
 * Day 1 [Historian Hysteria](./day1/notes.md)
+* Day 1 [Red-Nosed Reports](./day2/notes.md)
