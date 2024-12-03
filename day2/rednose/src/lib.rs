@@ -59,10 +59,12 @@ impl Runner {
                         // check increasing or decreasing
                         if direction != -1 && direction != 0 {
                             result = 0;
+                            break;
                         } else {
                             direction = -1;
                             if !check_abs_diff(num, parsed_nums[index - 1]) {
                                 result = 0;
+                                break;
                             }
                         }
                     }
@@ -74,11 +76,13 @@ impl Runner {
                             direction = 1;
                             if !check_abs_diff(num, parsed_nums[index - 1]) {
                                 result = 0;
+                                break;
                             }
                         }
                     }
                     Ordering::Equal => {
                         result = 0;
+                        break;
                     }
                 }
             }
