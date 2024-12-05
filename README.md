@@ -8,3 +8,4 @@ See notes for Each Day below
 
 * Day 1 [Historian Hysteria](./day1/notes.md)
 * Day 1 [Red-Nosed Reports](./day2/notes.md)
+* Day 3 [Mull It Over](./day3/notes.md)
